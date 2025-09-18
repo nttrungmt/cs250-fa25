@@ -24,7 +24,7 @@ public class Student implements Serializable {
         return id + "," + name + "," + grade;
     }
     
-    public static Student fromString(String line) {
+    public static Student parseFromString(String line) {
         //TODO: add missing code below
     }
 }
