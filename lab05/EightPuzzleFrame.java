@@ -39,15 +39,15 @@ public class EightPuzzleFrame extends JFrame {
         //TODO: Initialize the button grid to show the tiles and associate the event handler
     }
 
+    //Utility method to swap two tiles at (r1,c1) and (r2,c2) on both puzzle array and btnGrid
+    private void swap(int r1, int c1, int r2, int c2) {
+        // TODO: Add code for this method below
+    }
+
     // This method handles the click event on the button on the grid
     // r,c: the row and column indexes of the button on the grid
     public void btnGrid_Clicked(int r, int c) {
         // TODO: Add code for this btnGrid_Clicked method below
-    }
-
-    //Utility method to swap two tiles at (r1,c1) and (r2,c2) on both puzzle array and btnGrid
-    private void swap(int r1, int c1, int r2, int c2) {
-        // TODO: Add code for this method below
     }
 
     // This method checks if the game is finished or not.
