@@ -45,7 +45,7 @@ public class EightPuzzleFrame extends JFrame {
         // TODO: Add code for this btnGrid_Clicked method below
     }
 
-    //Utility method to swap two tiles at (r1,c1) and (r2,c2) on both puzzle and btnGrid
+    //Utility method to swap two tiles at (r1,c1) and (r2,c2) on both puzzle array and btnGrid
     private void swap(int r1, int c1, int r2, int c2) {
         // TODO: Add code for this method below
     }
@@ -53,6 +53,7 @@ public class EightPuzzleFrame extends JFrame {
     // This method checks if the game is finished or not.
     public boolean checkWin() {
         // TODO: Add code for this checkWin method below
+        return false; //may need to fix this line
     }
 
     // This method resets the game to play a new game
