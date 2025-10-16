@@ -1,8 +1,9 @@
 package lab08;
 import java.util.ArrayList;
 public class GenericLinkedList<E> {
-    private Node<T> head;  // Head of the linked list
-
+    private Node<E> head;  // Head of the linked list
+    private int size = 0;
+    
     // Constructor method
     public GenericLinkedList() {
         head = null; //head is null and the list is empty at the beginning
@@ -15,11 +16,6 @@ public class GenericLinkedList<E> {
 
     /* Add a new element to the end of the linked list */
     public void add(E obj) {
-        // TODO Add code below
-    }
-
-    /* Remove and return the element at the given index in the linked list */
-    public E remove(int index) {
         // TODO Add code below
     }
 
